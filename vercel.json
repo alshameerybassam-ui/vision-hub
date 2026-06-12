@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": {
+        "maxLambdaSize": "15mb"
+      }
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://mxtaiccaklljjaevumpo.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_UVAVtdIwmDPZWqqI_dAqKQ_-2YcYCsR"
+  }
+}
